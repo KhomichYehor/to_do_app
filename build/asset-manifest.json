@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//khomichyehor.github.io/to_do_app/static/css/main.751cda8b.css",
+    "main.js": "//khomichyehor.github.io/to_do_app/static/js/main.3cf27c31.js",
+    "static/js/453.2897a178.chunk.js": "//khomichyehor.github.io/to_do_app/static/js/453.2897a178.chunk.js",
+    "index.html": "//khomichyehor.github.io/to_do_app/index.html",
+    "main.751cda8b.css.map": "//khomichyehor.github.io/to_do_app/static/css/main.751cda8b.css.map",
+    "main.3cf27c31.js.map": "//khomichyehor.github.io/to_do_app/static/js/main.3cf27c31.js.map",
+    "453.2897a178.chunk.js.map": "//khomichyehor.github.io/to_do_app/static/js/453.2897a178.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.751cda8b.css",
+    "static/js/main.3cf27c31.js"
+  ]
+}

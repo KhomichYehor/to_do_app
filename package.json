@@ -1,6 +1,7 @@
 {
   "name": "to_do_app_test",
   "version": "0.1.0",
+  "homepage": "https://https://khomichyehor.github.io/to_do_app/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
@@ -19,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -44,6 +46,8 @@
   "devDependencies": {
     "eslint": "^9.1.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-react": "^7.34.1",
     "gh-pages": "^6.1.1",
     "prettier": "^3.2.5"
