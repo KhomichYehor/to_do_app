@@ -1,0 +1,53 @@
+
+$white-color: white;
+$black-color: black;
+$grey-color: #ccc;
+$alert-border-color: #f5c6cb;
+$alert-bg-color: #f8d7da;
+$alert-text-color: #721c24;
+
+$hover-time: .5s;
+
+.repo-loader {
+    margin-inline: 10px;
+
+    .input-group {
+      margin-bottom: 15px;
+  
+      .form-control {
+        padding-inline: 10px;
+        outline: none;
+        margin-right: 60px;
+        height: 30px;
+        width: 85%;
+        border-radius: 8px;
+        border: 1px solid $grey-color;
+
+        transition: all $hover-time;
+
+        &:focus {
+          filter: drop-shadow(2px 2px 5px $grey-color);
+        }
+      }
+  
+      .btn-primary {
+        background-color: $grey-color;
+        border-color: 1px solid $black-color;
+        padding: 7px 40px;
+        border-radius: 8px;
+        transition: all $hover-time;
+
+        &:hover {
+          cursor: pointer;
+          background-color: $white-color;
+          border-color: $black-color;
+        }
+      }
+    }
+  
+    .alert-danger {
+      background-color: $alert-bg-color;
+      border-color: $alert-border-color;
+      color: $alert-text-color;
+    }
+  }

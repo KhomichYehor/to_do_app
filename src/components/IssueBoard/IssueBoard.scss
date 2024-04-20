@@ -1,0 +1,52 @@
+$column-bg-color: lightgrey;
+$draggingOver-color: rgb(185, 182, 182);
+$issue-bg-color: grey;
+$white-color: white;
+$dragging-color: darkseagreen;
+
+$hover-time: .5s;
+
+
+.issueBoard {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+
+  .column {
+    background-color: $column-bg-color;
+    width: 400px;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 300px;
+
+    transition: all $hover-time;
+
+    &.draggingOver {
+      background-color: $draggingOver-color;
+    }
+
+    h4 {
+      text-align: center;
+    }
+
+    .issue {
+      user-select: none;
+      padding: 16px;
+      margin-bottom: 8px;
+      background-color: $issue-bg-color;
+      color: $white-color;
+      border-radius: 4px;
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      transition: all $hover-time;
+
+      &.dragging {
+        background-color: $dragging-color;
+      }
+    }
+  }
+}
